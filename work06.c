@@ -7,9 +7,9 @@ struct node {
 };
 
 void print_list(struct node *n) {
-    while (n.next) {
-        printf("%c\n", n.c);
-        n = n.next;
+    while (n->next) {
+        printf("%c\n", n->c);
+        n = n->next;
     }
 }
 
